@@ -6,4 +6,6 @@ os: osx
 script: 
 notifications:
 	slack:
+		on_failure: always
+	email:
 		on_success: always
