@@ -1,4 +1,8 @@
 <?php
-	if (test > 0)
+	$test = 1;
+
+	if ($test > 0)
 		echo "Kikou, lol";
+	else
+		echo "Stfu, Bitch !";
 ?>
